@@ -26,7 +26,7 @@ export default function App() {
     const steps = [
       "Analyzing raw notes...",
       "Connecting to AWS Lambda...",
-      "Bedrock invoking Claude 3 Haiku...",
+      "Bedrock invoking NOVO 2...",
       "Polishing standup layout..."
     ];
     
@@ -54,7 +54,7 @@ export default function App() {
 ### 2. What I will do
 - Deploy the AWS Lambda function and set up Bedrock IAM permissions.
 - Replace \`LAMBDA_URL\` with the deployed API Gateway/Lambda URL.
-- Test the end-to-end integration with Claude 3 Haiku.
+- Test the end-to-end integration with Amazon Nova 2 Lite.
 
 ### 3. Blockers
 - None. (Awaiting AWS Bedrock model access verification).`;
@@ -126,7 +126,7 @@ export default function App() {
           <div className="max-w-2xl mx-auto bg-amber-500/10 border border-amber-500/20 rounded-xl p-4 flex items-start space-x-3 text-amber-300 text-xs sm:text-sm">
             <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
             <div>
-              <span className="font-semibold text-amber-400">Demo Mode:</span> `LAMBDA_URL` is set to the default placeholder. Clicking "Format Report" will simulate an AWS Bedrock Claude 3 Haiku call. To run live, configure the Lambda function in AWS and update the URL in <code className="bg-amber-950 px-1.5 py-0.5 rounded text-amber-400 font-mono">App.jsx</code>.
+              <span className="font-semibold text-amber-400">Demo Mode:</span> `LAMBDA_URL` is set to the default placeholder. Clicking "Format Report" will simulate an Amazon Nova 2 Lite call. To run live, configure the Lambda function in AWS and update the URL in <code className="bg-amber-950 px-1.5 py-0.5 rounded text-amber-400 font-mono">App.jsx</code>.
             </div>
           </div>
         )}
@@ -289,7 +289,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="text-center text-xs text-slate-600 mt-12 py-4 border-t border-slate-900">
-        <p>Standup Sentinel © {new Date().getFullYear()} — Powered by AWS Bedrock & Claude 3 Haiku</p>
+        <p>Standup Sentinel © {new Date().getFullYear()} — Powered by AWS Bedrock & Amazon Nova 2 Lite</p>
       </footer>
     </div>
   );
