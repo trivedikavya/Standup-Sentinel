@@ -1,5 +1,6 @@
 <img width="1753" height="968" alt="image" src="https://github.com/user-attachments/assets/14ee7498-c8da-4780-a832-e99cb591e65c" />
 <img width="1526" height="139" alt="image" src="https://github.com/user-attachments/assets/def7bbc8-4a5c-4dbd-b8ad-ea301afbe3e7" />
+<img width="1465" height="79" alt="image" src="https://github.com/user-attachments/assets/269b884a-691f-4ffd-a1d0-ad5799040316" />
 
 # Standup Sentinel 🛡️
 
