@@ -1,3 +1,6 @@
+<img width="1753" height="968" alt="image" src="https://github.com/user-attachments/assets/14ee7498-c8da-4780-a832-e99cb591e65c" />
+<img width="1526" height="139" alt="image" src="https://github.com/user-attachments/assets/def7bbc8-4a5c-4dbd-b8ad-ea301afbe3e7" />
+
 # Standup Sentinel 🛡️
 
 Standup Sentinel is an AI-powered developer productivity tool that formats messy, raw daily notes into a clean, concise, 3-point standup report:
